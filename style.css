@@ -1,0 +1,163 @@
+body
+{
+  text-align: center;
+  padding-top: 800px;
+  font-family: Montserrat, sans-serif;
+    margin: 0;
+    
+     background: linear-gradient(#00c6ff 0% ,#9575CD 100%);
+}
+
+.profile {
+    padding-left: 23px;
+    width: 280px;
+    margin-bottom: 5px;
+    margin-top: 23;
+    border-radius: 343%;
+    width: 445;
+    
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #ffffff;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    top: 0;
+    opacity: 0.83;
+    background: linear-gradient(#4cd0f5 0% ,#9575CD 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.links {
+    float: left;
+    color: red;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+
+
+
+.links:hover {
+    background-color: black;
+}
+
+
+
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#bio {
+
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: blueviolet;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.Container div{
+    border:1px #ccc solid;
+    padding: 10px;
+}
+
+.Container {
+    display: flex;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color: darkblue;
+    
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: deepskyblue;
+}
+
+img {
+    transition: transform.2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+    
+}
+
+#Chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: deepskyblue;
+}
+
+h3 {
+    color:lightblue;
+}
+h3:hover {
+    color:blue;
+}
+
+contact {
+    background-color: darkorange;
+}
